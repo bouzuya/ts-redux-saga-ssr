@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": ".tmp/",
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "es2015"
+  },
+  "files": [
+    "./src/client.ts",
+    "./src/server.ts",
+    "./typings/main.d.ts"
+  ]
+}
