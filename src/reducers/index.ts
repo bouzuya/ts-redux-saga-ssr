@@ -4,7 +4,6 @@ import { is as isIncrementAction } from '../actions/increment';
 import { State } from '../types/';
 
 const reducer = (state: State = { count: 0 }, action: Action): State => {
-  console.log(action);
   if (isIncrementAction(action)) return { count: state.count + 1 };
   if (isDecrementAction(action)) return { count: state.count - 1 };
   return state;
